@@ -8,8 +8,7 @@ Gem::Specification.new do |s|
   s.description   = "With this gem you can manage your subscribers, campaigns, messages etc."
   s.version       = "0.6"
 
-  s.add_dependency "json", "~> 1.4"
-  s.add_dependency "json_pure", "~>1.4"
+  s.add_dependency "json", ">= 1.8"
   s.add_development_dependency "rr", "~>1.0"
   s.required_rubygems_version = ">= 1.3.5"
 
